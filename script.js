@@ -5,6 +5,6 @@ var datetime = currentdate.getDate() + "/"
     + currentdate.getHours() + ":"
     + currentdate.getMinutes() + ":"
     + currentdate.getSeconds();
-
+//changes according to computer timezone, love it
 
 document.getElementById('datetime').innerHTML=datetime;

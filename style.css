@@ -1,3 +1,4 @@
+/*fancy definitely not inspired button type links*/
 .btn {
   color: #fff;
   background-color: #337ab7;
@@ -12,6 +13,7 @@
   border-radius: 6px;
 
 }
+/*made a color scheme using cooler, I think it looks alright. my brother disagrees*/
 header{
   background-color: #49111c;
 }
@@ -28,6 +30,7 @@ header > nav, header > h2, header > h1{
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+/*i like roboto only want it on main page though*/
 header > h2{
   text-decoration: underline #34b4eb;
   font-style: italic;
