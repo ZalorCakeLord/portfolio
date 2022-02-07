@@ -25,4 +25,8 @@ header > nav, header > h2, header > h1{
 }
 header > h2{
   text-decoration: underline #34b4eb;
+  font-style: italic;
+}
+article{
+  background-color: #5e503f;
 }
