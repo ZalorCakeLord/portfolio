@@ -30,3 +30,23 @@ header > h2{
 article{
   background-color: #5e503f;
 }
+
+
+a:link {
+  color: #f2f4f3;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
