@@ -1,4 +1,7 @@
 .btn {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
   display: inline-block;
   font-family: arial, sans-serif;
   font-size: 16px;
@@ -7,7 +10,19 @@
   margin: 10px;
   padding: 6px 12px;
   border-radius: 6px;
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+
+}
+header{
+  background-color: #49111c;
+}
+body{
+  background-color: #0a0908;
+  color: #f2f4f3;
+}
+header > nav, header > h2, header > h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+header > h2{
+  text-decoration: underline #34b4eb;
 }
