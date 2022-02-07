@@ -13,6 +13,10 @@
   border-radius: 6px;
 
 }
+.tallhr{
+  height:20px;
+  background-color: #49111c;
+}
 /*made a color scheme using cooler, I think it looks alright. my brother disagrees*/
 header{
   background-color: #49111c;
