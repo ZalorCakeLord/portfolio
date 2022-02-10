@@ -19,7 +19,11 @@
 }
 /*made a color scheme using cooler, I think it looks alright. my brother disagrees*/
 header{
+  margin:auto;
   background-color: #49111c;
+  width: 350px;
+  height: 175px;
+  border-radius: 100px / 50px;
 }
 body{
   background-color: #0a0908;
@@ -41,6 +45,7 @@ header > h2{
 }
 article{
   background-color: #5e503f;
+  font-family: monospace, Times, serif;
 }
 ul,ol{
   list-style-position: inside;
