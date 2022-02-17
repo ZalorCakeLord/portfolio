@@ -1,3 +1,4 @@
+var span = document.getElementById('datetime');
 
 var currentdate = new Date();
 var datetime = currentdate.getDate() + "/"
@@ -8,4 +9,6 @@ var datetime = currentdate.getDate() + "/"
     + currentdate.getSeconds();
 //changes according to computer timezone, love it
 
-document.getElementById('datetime').innerHTML=datetime;
+span.textContent = datetime
+
+setInterval(time, 1000);
