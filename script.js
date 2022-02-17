@@ -9,6 +9,6 @@ var datetime = currentdate.getDate() + "/"
 //changes according to computer timezone, love it
 
 
-span.textContent = datetime;
+element.textContent = datetime;
 
 setInterval(time, 1000);
