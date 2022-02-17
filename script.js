@@ -1,4 +1,4 @@
-var span = document.getElementById('span');
+var span = document.getElementById('datetime');
 
 var currentdate = new Date();
 var datetime = currentdate.getDate() + "/"
