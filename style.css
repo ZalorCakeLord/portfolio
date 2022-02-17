@@ -17,6 +17,12 @@
   height:20px;
   background-color: #49111c;
 }
+.boxedred {
+    border-radius: 25px;
+    width: auto;
+    padding: 2px;
+    border: 3px solid #03A062 ;
+    }
 /*made a color scheme using cooler, I think it looks alright. my brother disagrees*/
 header{
   margin:auto;
@@ -42,6 +48,10 @@ header > nav, header > h2, header > h1{
 header > h2{
   text-decoration: underline #34b4eb;
   font-style: italic;
+}
+footer > p > span{
+  font-family: Copperplate,Copperplate Gothic Light,fantasy;
+  font-size:15px;
 }
 article{
   background-color: #5e503f;

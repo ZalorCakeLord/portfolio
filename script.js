@@ -1,11 +1,11 @@
 function time() {
   var currentdate = new Date();
-  var datetime = currentdate.getDate() + "/"
-      + (currentdate.getMonth()+1)  + "/"
+  var datetime = (currentdate.getMonth()+1) + "/"
+      + currentdate.getDate() + "/"
       + currentdate.getFullYear() + " @ "
-      + currentdate.getHours() + ":"
-      + currentdate.getMinutes() + ":"
-      + currentdate.getSeconds();
+      + currentdate.getHours().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + ":"
+      + currentdate.getMinutes().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + ":"
+      + currentdate.getSeconds().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
   document.getElementById('datetime').innerHTML=datetime;}
 
 setInterval(time, 1000);
