@@ -24,6 +24,18 @@
     padding: 2px;
     border: 3px solid #03A062 ;
     }
+    .neon {
+          color: #fff;
+          text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #0ff,
+            0 0 80px #0ff,
+            0 0 90px #0ff,
+            0 0 100px #0ff,
+            0 0 150px #0ff;
+        }
 /*made a color scheme using cooler, I think it looks alright. my brother disagrees*/
 header{
   margin:auto;
@@ -55,8 +67,11 @@ footer > p > span{
   font-size:15px;
 }
 article{
-  background-color: #5e503f;
+  background: linear-gradient(#49111c, #003366);
   font-family: "Baumans", sans-serif;
+  border-radius: 6px;
+  width:95%;
+  margin:auto;
 }
 ul,ol{
   list-style-position: inside;
