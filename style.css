@@ -1,4 +1,5 @@
 /*fancy definitely not inspired button type links*/
+@import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
 .btn {
   color: #fff;
   background-color: #337ab7;
@@ -55,7 +56,7 @@ footer > p > span{
 }
 article{
   background-color: #5e503f;
-  font-family: monospace, Times, serif;
+  font-family: "Baumans", sans-serif;
 }
 ul,ol{
   list-style-position: inside;
